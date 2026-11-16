@@ -94,7 +94,6 @@
 
 ## Kết luận
 
-Bài cá nhân Day 7 đã hoàn thành xuất sắc tất cả các mục tiêu đề ra:
 1. Kết nối thành công hệ thống dữ liệu Day 6 (807 chunks, embedding Qwen-8B 4096 chiều, pgvector trên PostgreSQL).
 2. Xây dựng và so sánh công bằng 3 phương pháp retrieval khác nhau (Dense pgvector, Lexical BM25, Hybrid RRF) cùng 2 cấu hình cải tiến có đối chứng khoa học.
 3. Triển khai Agentic RAG thông minh sử dụng mô hình LLM thực tế (`google/gemini-2.5-flash`), cơ chế multi-turn tool use, citation kiểm chứng và khả năng từ chối chính xác 100% khi tài liệu thiếu thông tin.
