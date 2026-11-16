@@ -1,0 +1,274 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Một thuật toán học máy được định nghĩa cơ bản là thuật toán có khả năng làm gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 3,
+        "evidence": "Một thuật toán học máy là thuật toán có khả năng học từ dữ liệu."
+      }
+    ],
+    "expected_answer": "Có khả năng học từ dữ liệu"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Các feature của một hình ảnh trong bài toán Machine Learning thường là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 4,
+        "evidence": "các feature của hình ảnh thường là giá trị của các pixel trong ảnh."
+      }
+    ],
+    "expected_answer": "Giá trị của các pixel trong ảnh"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong tác vụ tổng hợp và lấy mẫu, thuật toán ML được yêu cầu tạo ra điều gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 7,
+        "evidence": "thuật toán ML được yêu cầu tạo ra các mẫu dữ liệu mới tương tự như các mẫu dữ liệu trong dữ liệu huấn luyện."
+      }
+    ],
+    "expected_answer": "Tạo ra các mẫu dữ liệu mới tương tự như các mẫu dữ liệu trong dữ liệu huấn luyện",
+    "filter": {
+      "section": "5.1 Learning algorithms"
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Tập dữ liệu hoa Diên Vĩ (Iris) đo đạc các bộ phận của bao nhiêu cá thể cây?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 10,
+        "evidence": "tập dữ liệu đo đạc những phần khác nhau của 150 cá thể cây thuộc các loại Diên Vĩ khác nhau."
+      }
+    ],
+    "expected_answer": "150 cá thể cây thuộc các loại Diên Vĩ khác nhau"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong các phép biến đổi tịnh tiến, hệ số chặn thường được gọi là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 16,
+        "evidence": "Hệ số chặn thường được gọi là hệ số tự do (bias) của phép biến đổi tịnh tiến."
+      }
+    ],
+    "expected_answer": "Hệ số tự do (bias) của phép biến đổi tịnh tiến"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Theo định lý No Free Lunch, có thuật toán ML nào luôn luôn tốt hơn các thuật toán còn lại không?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 25,
+        "evidence": "không có thuật toán ML nào luôn luôn tốt hơn hơn các thuật toán ML còn lại."
+      }
+    ],
+    "expected_answer": "Không có thuật toán ML nào luôn luôn tốt hơn hơn các thuật toán ML còn lại",
+    "filter": {
+      "section": "5.2 Capacity, Overfitting, Underfitting"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Tập validation được sử dụng để làm gì đối với các siêu tham số trong quá trình huấn luyện?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 29,
+        "evidence": "cho phép các siêu tham số được cập nhật tương ứng."
+      }
+    ],
+    "expected_answer": "Cho phép các siêu tham số được cập nhật tương ứng"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Điều kiện mô tả sự hội tụ theo xác suất trong phương trình 5.55 được gọi là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 39,
+        "evidence": "Điều kiện được mô tả bởi phương trình (5.55) được gọi là tính nhất quán (consistency)."
+      }
+    ],
+    "expected_answer": "Tính nhất quán (consistency)"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Khi ước lượng một giá trị đơn lẻ của tham số, phương pháp tiếp cận đó thuộc trường phái thống kê nào?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 44,
+        "evidence": "thống kê tần suất (frequentist statistics) và các phương pháp tiếp cận dựa trên việc ước lượng một giá trị đơn lẻ"
+      }
+    ],
+    "expected_answer": "Thống kê tần suất (frequentist statistics)"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Thủ thuật chọn hàm lõi (kernel trick) tương đương với việc thực hiện điều gì trên dữ liệu?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 51,
+        "evidence": "Hàm lõi tương đương với việc tiền xử lý dữ liệu bằng hàm"
+      }
+    ],
+    "expected_answer": "Tiền xử lý dữ liệu bằng hàm phi tuyến sau đó học mô hình tuyến tính trên không gian mới",
+    "filter": {
+      "section": "5.7 Các thuật toán học có giám sát"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Đầu ra của thuật toán k-NN đối với một điểm mới là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 53,
+        "evidence": "Đầu ra của thuật toán chính là giá trị trung bình của các đầu ra ứng với điểm gần nhất vừa tìm được."
+      }
+    ],
+    "expected_answer": "Giá trị trung bình của các đầu ra ứng với điểm gần nhất vừa tìm được"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Điểm khác biệt cốt lõi của các thuật toán học không giám sát là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 56,
+        "evidence": "các thuật toán không giám sát là những thuật toán chỉ dựa trên những \"đặc trưng\" chứ không phải một tín hiệu giám sát."
+      }
+    ],
+    "expected_answer": "Chỉ dựa trên những đặc trưng chứ không phải một tín hiệu giám sát"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Khi số chiều của dữ liệu tăng lên, số lượng cấu hình cần xét đến có thể thay đổi như thế nào?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 66,
+        "evidence": "Khi số chiều của dữ liệu tăng lên (từ trái qua phải), số lượng cấu hình cần xét đến có thể tăng theo cấp số mũ."
+      }
+    ],
+    "expected_answer": "Có thể tăng theo cấp số mũ"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Về mặt toán học, một đa tạp (manifold) được định nghĩa là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 71,
+        "evidence": "Một đa tạp là một vùng liên thông. Về mặt toán học, nó là một tập hợp các điểm liên kết với một lân cận xung quanh mỗi điểm."
+      }
+    ],
+    "expected_answer": "Một tập hợp các điểm liên kết với một lân cận xung quanh mỗi điểm"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Các thuật toán học có giám sát nói chung học mối liên kết giữa những yếu tố nào?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 49,
+        "evidence": "các thuật toán học có giám sát, nói chung, là các thuật toán học được mối liên kết giữa một đầu vào và một đầu ra"
+      }
+    ],
+    "expected_answer": "Học mối liên kết giữa một đầu vào và một đầu ra khi biết tập mẫu"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 18,
+        "evidence": "Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho"
+      }
+    ],
+    "expected_answer": "Khả năng làm giảm sai số huấn luyện và thu hẹp khoảng cách với sai số kiểm thử"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Thủ thuật chọn hàm lõi trong SVM được đánh giá là một công cụ mạnh mẽ bởi mấy lý do?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 51,
+        "evidence": "Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do."
+      }
+    ],
+    "expected_answer": "Hai lý do"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong một tác vụ dịch máy, đầu vào được cung cấp cho hệ thống là gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 5,
+        "evidence": "Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ"
+      }
+    ],
+    "expected_answer": "Một chuỗi các ký tự trong một số ngôn ngữ",
+    "filter": {
+      "section": "5.1 Learning algorithms"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Tại sao khi tính toán thống kê với một số lượng mẫu hữu hạn, kết quả ước lượng tham số lại có tính bất định?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 36,
+        "evidence": "Khi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định"
+      }
+    ],
+    "expected_answer": "Vì có thể thu được các mẫu khác hẳn từ cùng một phân phối"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Mục tiêu thúc đẩy sự phát triển các thuật toán Deep Learning là để vượt qua điều gì?",
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 3,
+        "evidence": "góp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này."
+      }
+    ],
+    "expected_answer": "Vượt qua những trở ngại và thách thức của các thuật toán ML truyền thống"
+  }
+]

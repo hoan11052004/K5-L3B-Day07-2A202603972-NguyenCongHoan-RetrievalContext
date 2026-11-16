@@ -1,0 +1,583 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm gì?",
+    "strategy": "selected_reranked_hybrid_test",
+    "top_k": 5,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 18,
+        "evidence": "Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho"
+      }
+    ],
+    "results": [
+      {
+        "id": "dlbookvn-chap05_p18_pb000",
+        "text": "giảm đi, rồi mới lấy mẫu tập kiểm thử. Trong quá trình này, sai số kiểm thử kỳ vọng sẽ lớn hơn sai số huấn luyện kỳ vọng. Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho 1. Sai số huấn luyện nhỏ. 2. Khoảng cách giữa sai số huấn luyện và sai số kiểm thử là nhỏ. Hai yếu tố trên tương ứng với hai thách thức chính trong ML: underfitting và overfitting. Underfitting xảy ra khi mô hình không thể đạt được một sai số đủ nhỏ trên tập huấn luyện. overfitting xảy ra khi khoảng cách giữa sai số huấn luyện và sai số kiểm thử là quá lớn. ta có thể kiểm soát liệu một mô hình có nhiều khả năng overfitting hay underfitting hơn bằng cách thay đổi dung lượng (capacity) của nó.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 18,
+        "metadata": {
+          "section": "5.2 Capacity, Overtting, Undertting",
+          "char_len": 718,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2050,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04593464130958113,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p18_pc000",
+        "text": "giảm đi, rồi mới lấy mẫu tập kiểm thử. Trong quá trình này, sai số kiểm thử kỳ vọng sẽ lớn hơn sai số huấn luyện kỳ vọng. Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho 1. Sai số huấn luyện nhỏ. 2. Khoảng cách giữa sai số huấn luyện và sai số kiểm thử là nhỏ. Hai yếu tố trên tương ứng với hai thách thức chính trong ML: underfitting và overfitting. Underfitting xảy ra khi mô hình không thể đạt được một sai số đủ nhỏ trên tập huấn luyện. overfitting xảy ra khi khoảng cách giữa sai số huấn luyện và sai số kiểm thử là quá lớn. ta có thể kiểm soát liệu một mô hình có nhiều khả năng overfitting hay underfitting hơn bằng cách thay đổi dung lượng (capacity) của nó.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 18,
+        "metadata": {
+          "section": "5.2 Capacity, Overtting, Undertting",
+          "char_len": 718,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2050,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04589045214045214,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p18_fa000",
+        "text": "giảm đi, rồi mới lấy mẫu tập kiểm thử. Trong quá trình này, sai số kiểm thử kỳ vọng sẽ lớn hơn sai số huấn luyện kỳ vọng. Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho 1. Sai số huấn luyện nhỏ. 2. Khoảng cách giữa sai số huấn luyện và sai số kiểm thử là nhỏ. Hai yếu tố trên tương ứng với hai thách thức chính trong ML: underfitting và overfitting. Underfitting xảy ra khi mô hình không thể đạt được một sai số đủ nhỏ trên tập huấn luyện. overfit",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 18,
+        "metadata": {
+          "section": "5.2 Capacity, Overtting, Undertting",
+          "char_len": 500,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2050,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.04537958626073381,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p8_pb001",
+        "text": "Các loại tác vụ mà chúng tôi liệt kê ở đây chỉ nhằm cung cấp cho bạn đọc một số ví dụ về những tác vụ mà ML có thể giải quyết, chứ không nhằm mục đích định nghĩa một cách phân loại cứng nhắc cho các tác vụ này. 5.1.2 Đánh giá hiệu năng Để đánh giá khả năng của một thuật toán ML, ta cần xây dựng một phương thức đo đạc một cách định lượng hiệu năng của nó. Thông thường, phương pháp đo đạc hiệu năng này là chuyên biệt cho một loại tác vụ được thực hiện bởi hệ thống. Đối với các tác vụ như phân loại, phân loại với đầu vào khiếm khuyết, và phiên mã, ta thường đo đạc độ chính xác (accuracy) của mô hình. Độ chính xác chỉ là tỷ lệ các mẫu dữ liệu mà mô hình dự đoán chính xác đầu ra của nó. Ta cũng có một độ đo tương đương gọi là tỷ lệ lỗi (error rate).",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 8,
+        "metadata": {
+          "section": "5.1.2 Đánh giá hiệu năng",
+          "char_len": 754,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2244,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.041376600044913545,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      },
+      {
+        "id": "dlbookvn-chap05_p8_pc001",
+        "text": "Các loại tác vụ mà chúng tôi liệt kê ở đây chỉ nhằm cung cấp cho bạn đọc một số ví dụ về những tác vụ mà ML có thể giải quyết, chứ không nhằm mục đích định nghĩa một cách phân loại cứng nhắc cho các tác vụ này. 5.1.2 Đánh giá hiệu năng Để đánh giá khả năng của một thuật toán ML, ta cần xây dựng một phương thức đo đạc một cách định lượng hiệu năng của nó. Thông thường, phương pháp đo đạc hiệu năng này là chuyên biệt cho một loại tác vụ được thực hiện bởi hệ thống. Đối với các tác vụ như phân loại, phân loại với đầu vào khiếm khuyết, và phiên mã, ta thường đo đạc độ chính xác (accuracy) của mô hình. Độ chính xác chỉ là tỷ lệ các mẫu dữ liệu mà mô hình dự đoán chính xác đầu ra của nó. Ta cũng có một độ đo tương đương gọi là tỷ lệ lỗi (error rate).",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 8,
+        "metadata": {
+          "section": "5.1.2 Đánh giá hiệu năng",
+          "char_len": 754,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2244,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04075850043591979,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      }
+    ],
+    "context": "[dlbookvn-chap05_p18_pb000 | starter/data/dlbookvn_chap05.pdf | page 18]\ngiảm đi, rồi mới lấy mẫu tập kiểm thử. Trong quá trình này, sai số kiểm thử kỳ vọng sẽ lớn hơn sai số huấn luyện kỳ vọng. Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm cho 1. Sai số huấn luyện nhỏ. 2. Khoảng cách giữa sai số huấn luyện và sai số kiểm thử là nhỏ. Hai yếu tố trên tương ứng với hai thách thức chính trong ML: underfitting và overfitting. Underfitting xảy ra khi mô hình không thể đạt được một sai số đủ nhỏ trên tập huấn luyện. overfitting xảy ra khi khoảng cách giữa sai số huấn luyện và sai số kiểm thử là quá lớn. ta có thể kiểm soát liệu một mô hình có nhiều khả năng overfitting hay underfitting hơn bằng cách thay đổi dung lượng (capacity) của nó.",
+    "context_ids": [
+      "dlbookvn-chap05_p18_pb000"
+    ],
+    "context_chars": 791,
+    "elapsed_ms": 44.09709999981715,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Thủ thuật chọn hàm lõi trong SVM được đánh giá là một công cụ mạnh mẽ bởi mấy lý do?",
+    "strategy": "selected_reranked_hybrid_test",
+    "top_k": 5,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 51,
+        "evidence": "Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do."
+      }
+    ],
+    "results": [
+      {
+        "id": "dlbookvn-chap05_p51_pb000",
+        "text": "Đối với biến thì đây là một hàm phi tuyến, nhưng mối quan hệ giữa và là tuyến tính. Hàm lõi tương đương với việc tiền xử lý dữ liệu bằng hàm , sau đó học một mô hình tuyến tính trên không gian dữ liệu mới. Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do. Thứ nhất, nó cho phép ta học một mô hình phi tuyến đối với biến sử dụng các kỹ thuật tối ưu lồi để đảm bảo thủ tục học sẽ hội tụ nhanh. Ta có thể thực hiện điều này bởi là cố định và ta chỉ cần tối ưu , tức là, thuật toán tối ưu coi hàm quyết định là tuyến tính trong một không gian khác. Thứ hai, hàm lõi cho phép một cài đặt hiệu quả hơn đáng kể về mặt tính toán so với chỉ đơn giản là xây dựng hai vector rồi tiến hành lấy tích vô hướng (phương pháp tuần tự).",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 51,
+        "metadata": {
+          "section": "5.7.2 Support Vector Machine",
+          "char_len": 729,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2304,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.043010752688172046,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p51_pc000",
+        "text": "Đối với biến thì đây là một hàm phi tuyến, nhưng mối quan hệ giữa và là tuyến tính. Hàm lõi tương đương với việc tiền xử lý dữ liệu bằng hàm , sau đó học một mô hình tuyến tính trên không gian dữ liệu mới. Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do. Thứ nhất, nó cho phép ta học một mô hình phi tuyến đối với biến sử dụng các kỹ thuật tối ưu lồi để đảm bảo thủ tục học sẽ hội tụ nhanh. Ta có thể thực hiện điều này bởi là cố định và ta chỉ cần tối ưu , tức là, thuật toán tối ưu coi hàm quyết định là tuyến tính trong một không gian khác. Thứ hai, hàm lõi cho phép một cài đặt hiệu quả hơn đáng kể về mặt tính toán so với chỉ đơn giản là xây dựng hai vector rồi tiến hành lấy tích vô hướng (phương pháp tuần tự).",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 51,
+        "metadata": {
+          "section": "5.7.2 Support Vector Machine",
+          "char_len": 729,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2304,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04297924297924298,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p52_pb000",
+        "text": "của nhiều nhãn huấn luyện, được đánh trọng số theo độ tương tự của các mẫu huấn luyện tương ứng. SVM không phải thuật toán duy nhất được tăng cường sức mạnh nhờ thủ thuật chọn hàm lõi. Rất nhiều mô hình tuyến tính cũng có thể được cải thiện bằng kỹ thuật này.Tất cả các thuật toán sử dụng thủ thuật chọn hàm lõi đều được gọi chung là máy lõi (kernel machine) hay phương pháp lõi (kernel method) [Williams and Rasmussen, 1996; Schölkopf et al., 1999]. Một nhược điểm lớn của các máy lõi nói chung đó là chi phí tính toán hàm quyết định là tuyến tính theo số lượng mẫu dữ liệu huấn luyện, bởi vì mẫu huấn luyện thứ của tập huấn luyện sẽ đóng góp một lượng vào hàm quyết định. SVM có thể giảm thiểu điều này bằng cách học ra một vector với phần lớn phần tử có giá trị .",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 52,
+        "metadata": {
+          "section": "5.11\nk",
+          "char_len": 766,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2243,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04173487103174603,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      },
+      {
+        "id": "dlbookvn-chap05_p51_fa000",
+        "text": "Đối với biến thì đây là một hàm phi tuyến, nhưng mối quan hệ giữa và là tuyến tính. Hàm lõi tương đương với việc tiền xử lý dữ liệu bằng hàm , sau đó học một mô hình tuyến tính trên không gian dữ liệu mới. Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do. Thứ nhất, nó cho phép ta học một mô hình phi tuyến đối với biến sử dụng các kỹ thuật tối ưu lồi để đảm bảo thủ tục học sẽ hội tụ nhanh. Ta có thể thực hiện điều này bởi là cố định và ta chỉ cần tối ưu , tức là, thuật toán tối ưu coi",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 51,
+        "metadata": {
+          "section": "5.7.2 Support Vector Machine",
+          "char_len": 499,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2304,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.041696364932287955,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p52_pc000",
+        "text": "của nhiều nhãn huấn luyện, được đánh trọng số theo độ tương tự của các mẫu huấn luyện tương ứng. SVM không phải thuật toán duy nhất được tăng cường sức mạnh nhờ thủ thuật chọn hàm lõi. Rất nhiều mô hình tuyến tính cũng có thể được cải thiện bằng kỹ thuật này.Tất cả các thuật toán sử dụng thủ thuật chọn hàm lõi đều được gọi chung là máy lõi (kernel machine) hay phương pháp lõi (kernel method) [Williams and Rasmussen, 1996; Schölkopf et al., 1999]. Một nhược điểm lớn của các máy lõi nói chung đó là chi phí tính toán hàm quyết định là tuyến tính theo số lượng mẫu dữ liệu huấn luyện, bởi vì mẫu huấn luyện thứ của tập huấn luyện sẽ đóng góp một lượng vào hàm quyết định. SVM có thể giảm thiểu điều này bằng cách học ra một vector với phần lớn phần tử có giá trị .",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 52,
+        "metadata": {
+          "section": "5.11\nk",
+          "char_len": 766,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2243,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.041087740384615386,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      }
+    ],
+    "context": "[dlbookvn-chap05_p51_pb000 | starter/data/dlbookvn_chap05.pdf | page 51]\nĐối với biến thì đây là một hàm phi tuyến, nhưng mối quan hệ giữa và là tuyến tính. Hàm lõi tương đương với việc tiền xử lý dữ liệu bằng hàm , sau đó học một mô hình tuyến tính trên không gian dữ liệu mới. Thủ thuật chọn hãm lõi là một công cụ mạnh mẽ bởi hai lý do. Thứ nhất, nó cho phép ta học một mô hình phi tuyến đối với biến sử dụng các kỹ thuật tối ưu lồi để đảm bảo thủ tục học sẽ hội tụ nhanh. Ta có thể thực hiện điều này bởi là cố định và ta chỉ cần tối ưu , tức là, thuật toán tối ưu coi hàm quyết định là tuyến tính trong một không gian khác. Thứ hai, hàm lõi cho phép một cài đặt hiệu quả hơn đáng kể về mặt tính toán so với chỉ đơn giản là xây dựng hai vector rồi tiến hành lấy tích vô hướng (phương pháp tuần tự).",
+    "context_ids": [
+      "dlbookvn-chap05_p51_pb000"
+    ],
+    "context_chars": 802,
+    "elapsed_ms": 48.433599999953,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Trong một tác vụ dịch máy, đầu vào được cung cấp cho hệ thống là gì?",
+    "strategy": "selected_reranked_hybrid_test",
+    "top_k": 5,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 5,
+        "evidence": "Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ"
+      }
+    ],
+    "results": [
+      {
+        "id": "dlbookvn-chap05_p5_pb002",
+        "text": "Một ví dụ khác là nhận dạng giọng nói, trong đó chương trình máy tính được cung cấp một dạng sóng âm thanh và xuất ra chuỗi ký tự hoặc mã ID của từ mô tả các từ được nói trong bản ghi âm. DL là một thành phần quan trọng của các hệ thống nhận dạng giọng nói hiện đại được sử dụng ở rất nhiều các công ty lớn, bao gồm Microsoft, IBM và Google [Hinton et al., 2012b]. Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ, và chương trình máy tính phải chuyển đổi chúng thành chuỗi ký tự trong một ngôn ngữ khác. Tác vụ này thường được áp dụng cho các ngôn ngữ tự nhiên, chẳng hạn như dịch từ tiếng Anh sang tiếng Pháp. DL gần đây đã bắt đầu có một ảnh hưởng quan trọng đối với dịch máy [Sutskever et al., 2014; Bahdanau et al., 2015]. f : R → n R",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 788,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2241,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04776738498149128,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p5_pc002",
+        "text": "Một ví dụ khác là nhận dạng giọng nói, trong đó chương trình máy tính được cung cấp một dạng sóng âm thanh và xuất ra chuỗi ký tự hoặc mã ID của từ mô tả các từ được nói trong bản ghi âm. DL là một thành phần quan trọng của các hệ thống nhận dạng giọng nói hiện đại được sử dụng ở rất nhiều các công ty lớn, bao gồm Microsoft, IBM và Google [Hinton et al., 2012b]. Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ, và chương trình máy tính phải chuyển đổi chúng thành chuỗi ký tự trong một ngôn ngữ khác. Tác vụ này thường được áp dụng cho các ngôn ngữ tự nhiên, chẳng hạn như dịch từ tiếng Anh sang tiếng Pháp. DL gần đây đã bắt đầu có một ảnh hưởng quan trọng đối với dịch máy [Sutskever et al., 2014; Bahdanau et al., 2015]. f : R → n R",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 788,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2241,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04700300819252432,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p5_fa004",
+        "text": "n et al., 2012b]. Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ, và chương trình máy tính phải chuyển đổi chúng thành chuỗi ký tự trong một ngôn ngữ khác. Tác vụ này thường được áp dụng cho các ngôn ngữ tự nhiên, chẳng hạn như dịch từ tiếng Anh sang tiếng Pháp. DL gần đây đã bắt đầu có một ảnh hưởng quan trọng đối với dịch máy [Sutskever et al., 2014; Bahdanau et al., 2015]. f : R → n R",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 5,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 441,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2241,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.042024205942622954,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p6_pc000",
+        "text": "Đầu ra có cấu trúc: Các tác vụ loại này bao hàm bất kỳ tác vụ nào mà đầu ra là một vector (hoặc một cấu trúc dữ liệu khác chứa nhiều giá trị) với các mối quan hệ quan trọng giữa các phần tử với nhau. Đây là một nhóm tác vụ rộng, áp dụng các tác vụ phiên mã và phiên dịch được mô tả phía trên, cũng như nhiều tác vụ khác. Một ví dụ là phân tích cú pháp — giúp ánh xạ một câu ngôn ngữ tự nhiên tới một cây mô tả cấu trúc ngữ pháp của nó bằng cách gán nhãn các nút của cây thành các động từ, danh từ, trạng từ, v.v. Công trình của Collobert (2011) cho ta một ví dụ về việc áp dụng DL cho tác vụ phân tích cú pháp. Một ví dụ khác là phân vùng hình ảnh theo pixel, trong đó chương trình máy tính gán mỗi pixel trong một hình ảnh cho một nhóm cụ thể.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 744,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2385,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.03657986111111111,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      },
+      {
+        "id": "dlbookvn-chap05_p6_pb000",
+        "text": "Đầu ra có cấu trúc: Các tác vụ loại này bao hàm bất kỳ tác vụ nào mà đầu ra là một vector (hoặc một cấu trúc dữ liệu khác chứa nhiều giá trị) với các mối quan hệ quan trọng giữa các phần tử với nhau. Đây là một nhóm tác vụ rộng, áp dụng các tác vụ phiên mã và phiên dịch được mô tả phía trên, cũng như nhiều tác vụ khác. Một ví dụ là phân tích cú pháp — giúp ánh xạ một câu ngôn ngữ tự nhiên tới một cây mô tả cấu trúc ngữ pháp của nó bằng cách gán nhãn các nút của cây thành các động từ, danh từ, trạng từ, v.v. Công trình của Collobert (2011) cho ta một ví dụ về việc áp dụng DL cho tác vụ phân tích cú pháp. Một ví dụ khác là phân vùng hình ảnh theo pixel, trong đó chương trình máy tính gán mỗi pixel trong một hình ảnh cho một nhóm cụ thể.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 6,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 744,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2385,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.036566318030359125,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      }
+    ],
+    "context": "[dlbookvn-chap05_p5_pb002 | starter/data/dlbookvn_chap05.pdf | page 5]\nMột ví dụ khác là nhận dạng giọng nói, trong đó chương trình máy tính được cung cấp một dạng sóng âm thanh và xuất ra chuỗi ký tự hoặc mã ID của từ mô tả các từ được nói trong bản ghi âm. DL là một thành phần quan trọng của các hệ thống nhận dạng giọng nói hiện đại được sử dụng ở rất nhiều các công ty lớn, bao gồm Microsoft, IBM và Google [Hinton et al., 2012b]. Dịch máy: Trong một tác vụ dịch máy, đầu vào đã bao gồm một chuỗi các ký tự trong một số ngôn ngữ, và chương trình máy tính phải chuyển đổi chúng thành chuỗi ký tự trong một ngôn ngữ khác. Tác vụ này thường được áp dụng cho các ngôn ngữ tự nhiên, chẳng hạn như dịch từ tiếng Anh sang tiếng Pháp. DL gần đây đã bắt đầu có một ảnh hưởng quan trọng đối với dịch máy [Sutskever et al., 2014; Bahdanau et al., 2015]. f : R → n R",
+    "context_ids": [
+      "dlbookvn-chap05_p5_pb002"
+    ],
+    "context_chars": 859,
+    "elapsed_ms": 43.92880000068544,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Tại sao khi tính toán thống kê với một số lượng mẫu hữu hạn, kết quả ước lượng tham số lại có tính bất định?",
+    "strategy": "selected_reranked_hybrid_test",
+    "top_k": 5,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 36,
+        "evidence": "Khi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định"
+      }
+    ],
+    "results": [
+      {
+        "id": "dlbookvn-chap05_p36_pb000",
+        "text": "Khi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định, theo nghĩa là có thể ta sẽ thu được các mẫu khác hẳn từ cùng một phân phối và do đó các thống kê của chúng cũng sẽ khác. Mức độ biến thiên kì vọng trong bất kì hàm ước lượng nào chính là một nguồn gây sai số mà ta muốn định lượng. Sai số chuẩn của giá trị trung bình được tính như sau: trong đó là phương sai thực sự của mẫu . Sai số chuẩn thường được ước lượng bằng cách sử dụng một ước lượng của . Không may mắn là cả căn bậc hai của phương sai mẫu, lẫn căn bậc hai của ước lượng không chệch của phương sai đều không thể tạo ra một ước lượng không chệch cho độ lệch chuẩn.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "5.4.3 Phương sai và sai số chuẩn",
+          "char_len": 684,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2220,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.046832363828662085,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p36_fa000",
+        "text": "Khi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định, theo nghĩa là có thể ta sẽ thu được các mẫu khác hẳn từ cùng một phân phối và do đó các thống kê của chúng cũng sẽ khác. Mức độ biến thiên kì vọng trong bất kì hàm ước lượng nào chính là một nguồn gây sai số mà ta muốn định lượng. Sai số chuẩn của giá trị trung bình được tính như sau: trong đó là phương sai thực sự của mẫu . Sai số chuẩn thường được ước lượng bằng cách sử dụng một ước lư",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "5.4.3 Phương sai và sai số chuẩn",
+          "char_len": 500,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2220,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.04646370023419204,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p36_pc000",
+        "text": "Khi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định, theo nghĩa là có thể ta sẽ thu được các mẫu khác hẳn từ cùng một phân phối và do đó các thống kê của chúng cũng sẽ khác. Mức độ biến thiên kì vọng trong bất kì hàm ước lượng nào chính là một nguồn gây sai số mà ta muốn định lượng. Sai số chuẩn của giá trị trung bình được tính như sau: trong đó là phương sai thực sự của mẫu . Sai số chuẩn thường được ước lượng bằng cách sử dụng một ước lượng của . Không may mắn là cả căn bậc hai của phương sai mẫu, lẫn căn bậc hai của ước lượng không chệch của phương sai đều không thể tạo ra một ước lượng không chệch cho độ lệch chuẩn.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 36,
+        "metadata": {
+          "section": "5.4.3 Phương sai và sai số chuẩn",
+          "char_len": 684,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2220,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.046082949308755755,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p43_pc001",
+        "text": "Tuy nhiên, các ước lượng nhất quán khác nhau có thể có tính hiệu quả thống kê (statistical efficiency) khác nhau, có nghĩa là một ước lượng nhất quán có thể đạt được sai số tổng quát hoá thấp hơn với một số lượng mẫu cố định, nói cách khác, ước lượng đó có thể chỉ cần một số lượng mẫu ít hơn để đạt được một mức sai số tổng quát hoá cố định. Tính hiệu quả thống kê thường được nghiên cứu trong trường hợp có tham số (parametric case) (chẳng hạn như trong hồi quy tuyến tính), ở đó mục đích của ta là ước lượng giá trị của tham số (với giả định rằng giá trị thực của tham số là có thể xác định), chứ không phải giá trị của hàm.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 43,
+        "metadata": {
+          "section": "5.5 Maximum likelihood estimation",
+          "char_len": 627,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2253,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04124053030303031,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      },
+      {
+        "id": "dlbookvn-chap05_p43_pb001",
+        "text": "Tuy nhiên, các ước lượng nhất quán khác nhau có thể có tính hiệu quả thống kê (statistical efficiency) khác nhau, có nghĩa là một ước lượng nhất quán có thể đạt được sai số tổng quát hoá thấp hơn với một số lượng mẫu cố định, nói cách khác, ước lượng đó có thể chỉ cần một số lượng mẫu ít hơn để đạt được một mức sai số tổng quát hoá cố định. Tính hiệu quả thống kê thường được nghiên cứu trong trường hợp có tham số (parametric case) (chẳng hạn như trong hồi quy tuyến tính), ở đó mục đích của ta là ước lượng giá trị của tham số (với giả định rằng giá trị thực của tham số là có thể xác định), chứ không phải giá trị của hàm.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 43,
+        "metadata": {
+          "section": "5.5 Maximum likelihood estimation",
+          "char_len": 627,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 2253,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04123076923076924,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      }
+    ],
+    "context": "[dlbookvn-chap05_p36_pb000 | starter/data/dlbookvn_chap05.pdf | page 36]\nKhi tính toán bất kỳ thống kê nào với một số lượng mẫu hữu hạn, kết quả ước lượng tham số của ta là bất định, theo nghĩa là có thể ta sẽ thu được các mẫu khác hẳn từ cùng một phân phối và do đó các thống kê của chúng cũng sẽ khác. Mức độ biến thiên kì vọng trong bất kì hàm ước lượng nào chính là một nguồn gây sai số mà ta muốn định lượng. Sai số chuẩn của giá trị trung bình được tính như sau: trong đó là phương sai thực sự của mẫu . Sai số chuẩn thường được ước lượng bằng cách sử dụng một ước lượng của . Không may mắn là cả căn bậc hai của phương sai mẫu, lẫn căn bậc hai của ước lượng không chệch của phương sai đều không thể tạo ra một ước lượng không chệch cho độ lệch chuẩn.",
+    "context_ids": [
+      "dlbookvn-chap05_p36_pb000"
+    ],
+    "context_chars": 757,
+    "elapsed_ms": 52.6317999992898,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Mục tiêu thúc đẩy sự phát triển các thuật toán Deep Learning là để vượt qua điều gì?",
+    "strategy": "selected_reranked_hybrid_test",
+    "top_k": 5,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "dlbookvn-chap05",
+        "page": 3,
+        "evidence": "góp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này."
+      }
+    ],
+    "results": [
+      {
+        "id": "dlbookvn-chap05_p3_fa000",
+        "text": "góp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này. 5.1 Learning algorithms Một thuật toán học máy là thuật toán có khả năng học từ dữ liệu. Nhưng ta đang ám chỉ học ở đây là học cái gì? [Mitchell, 1997] đưa ra một định nghĩa ngắn gọn: “Một chương trình máy tính được cho là học hỏi từ kinh nghiệm (experience) đối với một tập tác vụ (task) và phương pháp đo lường hiệu năng (performance), nếu hiệu năng của nó khi thực hiện tác vụ , được đo bằng phương pháp , được cả",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 500,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 1946,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.043253467843631786,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p3_pb000",
+        "text": "góp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này. 5.1 Learning algorithms Một thuật toán học máy là thuật toán có khả năng học từ dữ liệu. Nhưng ta đang ám chỉ học ở đây là học cái gì? [Mitchell, 1997] đưa ra một định nghĩa ngắn gọn: “Một chương trình máy tính được cho là học hỏi từ kinh nghiệm (experience) đối với một tập tác vụ (task) và phương pháp đo lường hiệu năng (performance), nếu hiệu năng của nó khi thực hiện tác vụ , được đo bằng phương pháp , được cải thiện với kinh nghiệm được rút ra từ \". Người ta có thể hình dung ra rất nhiều loại kinh nghiệm , tác vụ , và các phương pháp đo đạc , nhưng trong khuôn khổ cuốn sách này, ta không tìm cách định nghĩa một cách chặt chẽ những gì có thể được sử dụng cho mỗi thành tố này.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 771,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 1946,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04257630064081677,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p3_pc000",
+        "text": "góp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này. 5.1 Learning algorithms Một thuật toán học máy là thuật toán có khả năng học từ dữ liệu. Nhưng ta đang ám chỉ học ở đây là học cái gì? [Mitchell, 1997] đưa ra một định nghĩa ngắn gọn: “Một chương trình máy tính được cho là học hỏi từ kinh nghiệm (experience) đối với một tập tác vụ (task) và phương pháp đo lường hiệu năng (performance), nếu hiệu năng của nó khi thực hiện tác vụ , được đo bằng phương pháp , được cải thiện với kinh nghiệm được rút ra từ \". Người ta có thể hình dung ra rất nhiều loại kinh nghiệm , tác vụ , và các phương pháp đo đạc , nhưng trong khuôn khổ cuốn sách này, ta không tìm cách định nghĩa một cách chặt chẽ những gì có thể được sử dụng cho mỗi thành tố này.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 3,
+        "metadata": {
+          "section": "5.1 Learning algorithms",
+          "char_len": 771,
+          "strategy": "C",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 1946,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.04192002948221854,
+        "strategy": "hybrid_reranked",
+        "hit": true
+      },
+      {
+        "id": "dlbookvn-chap05_p65_pb001",
+        "text": "Dù vậy, chúng vẫn chưa giải quyết được các vấn đề trọng tâm của AI, chẳng hạn là nhận biết giọng nói hay nhận dạng vật thể. Sự phát triển của DL có được thúc đẩy một phần từ những thất bại của các thuật toán truyền thống trong việc đạt được sự tổng quát hóa tốt trong các tác vụ AI. Phần này thảo luận về việc những thách thức trong việc tổng quát hóa các mẫu dữ liệu mới sẽ trở nên khó khăn gấp bội như thế nào khi làm việc với dữ liệu nhiều chiều, và việc các cơ chế được sử dụng để tổng quát hóa trong ML truyền thống là chưa đủ để học các hàm phức tạp trong không gian đa chiều. Những không gian này yêu cầu khối lượng tính toán khá lớn, và DL được thiết kế với mục đích chính là để giải quyết những thách thức như vậy.",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 65,
+        "metadata": {
+          "section": "5.11 Những thách thức thúc đẩy sự",
+          "char_len": 723,
+          "strategy": "B",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 1918,
+          "chunk_type": "by_paragraph"
+        },
+        "score": 0.041142817755720984,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      },
+      {
+        "id": "dlbookvn-chap05_p65_fa001",
+        "text": "pháp thực hiện những tác vụ có liên quan, hơn là một danh sách dài các thuật toán mà mỗi trong số đó lại có các cách giải thích cách thức hoạt động riêng biệt. 5.11 Những thách thức thúc đẩy sự phát triển của DL Các thuật toán ML đơn giản được mô tả ở chương này hoạt động tốt cho một loạt các bài toán quan trọng. Dù vậy, chúng vẫn chưa giải quyết được các vấn đề trọng tâm của AI, chẳng hạn là nhận biết giọng nói hay nhận dạng vật thể. Sự phát triển của DL có được thúc đẩy một phần từ những thất",
+        "source_id": "dlbookvn-chap05",
+        "source": "starter/data/dlbookvn_chap05.pdf",
+        "page": 65,
+        "metadata": {
+          "section": "5.11 Những thách thức thúc đẩy sự",
+          "char_len": 499,
+          "strategy": "A",
+          "source_id": "dlbookvn-chap05",
+          "char_count": 1918,
+          "chunk_type": "fixed_size"
+        },
+        "score": 0.040912454462659384,
+        "strategy": "hybrid_reranked",
+        "hit": false
+      }
+    ],
+    "context": "[dlbookvn-chap05_p3_fa000 | starter/data/dlbookvn_chap05.pdf | page 3]\ngóp phần thúc đẩy sự phát triển các thuật toán DL nhằm vượt qua những trở ngại này. 5.1 Learning algorithms Một thuật toán học máy là thuật toán có khả năng học từ dữ liệu. Nhưng ta đang ám chỉ học ở đây là học cái gì? [Mitchell, 1997] đưa ra một định nghĩa ngắn gọn: “Một chương trình máy tính được cho là học hỏi từ kinh nghiệm (experience) đối với một tập tác vụ (task) và phương pháp đo lường hiệu năng (performance), nếu hiệu năng của nó khi thực hiện tác vụ , được đo bằng phương pháp , được cả\n\n[dlbookvn-chap05_p65_fa001 | starter/data/dlbookvn_chap05.pdf | page 65]\npháp thực hiện những tác vụ có liên quan, hơn là một danh sách dài các thuật toán mà mỗi trong số đó lại có các cách giải thích cách thức hoạt động riêng biệt. 5.11 Những thách thức thúc đẩy sự phát triển của DL Các thuật toán ML đơn giản được mô tả ở chương này hoạt động tốt cho một loạt các bài toán quan trọng. Dù vậy, chúng vẫn chưa giải quyết được các vấn đề trọng tâm của AI, chẳng hạn là nhận biết giọng nói hay nhận dạng vật thể. Sự phát triển của DL có được thúc đẩy một phần từ những thất",
+    "context_ids": [
+      "dlbookvn-chap05_p3_fa000",
+      "dlbookvn-chap05_p65_fa001"
+    ],
+    "context_chars": 1145,
+    "elapsed_ms": 40.12510000029579,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

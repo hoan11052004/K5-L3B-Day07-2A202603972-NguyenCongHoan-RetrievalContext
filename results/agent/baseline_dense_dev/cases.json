@@ -1,0 +1,123 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Một thuật toán học máy được định nghĩa cơ bản là thuật toán có khả năng làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Các feature của một hình ảnh trong bài toán Machine Learning thường là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Trong tác vụ tổng hợp và lấy mẫu, thuật toán ML được yêu cầu tạo ra điều gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Tập dữ liệu hoa Diên Vĩ (Iris) đo đạc các bộ phận của bao nhiêu cá thể cây?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Trong các phép biến đổi tịnh tiến, hệ số chặn thường được gọi là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Theo định lý No Free Lunch, có thuật toán ML nào luôn luôn tốt hơn các thuật toán còn lại không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Tập validation được sử dụng để làm gì đối với các siêu tham số trong quá trình huấn luyện?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Điều kiện mô tả sự hội tụ theo xác suất trong phương trình 5.55 được gọi là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Khi ước lượng một giá trị đơn lẻ của tham số, phương pháp tiếp cận đó thuộc trường phái thống kê nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Thủ thuật chọn hàm lõi (kernel trick) tương đương với việc thực hiện điều gì trên dữ liệu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Đầu ra của thuật toán k-NN đối với một điểm mới là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Điểm khác biệt cốt lõi của các thuật toán học không giám sát là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Khi số chiều của dữ liệu tăng lên, số lượng cấu hình cần xét đến có thể thay đổi như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Về mặt toán học, một đa tạp (manifold) được định nghĩa là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Các thuật toán học có giám sát nói chung học mối liên kết giữa những yếu tố nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev1",
+    "split": "dev",
+    "question": "Thuật toán Transformer sử dụng cơ chế Multi-Head Attention như thế nào để xử lý chuỗi văn bản?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 5 chỉ trình bày các khái niệm Machine Learning cơ bản; kiến trúc Transformer và Multi-Head Attention hoàn toàn không xuất hiện trong tài liệu."
+  },
+  {
+    "id": "q_unans_dev2",
+    "split": "dev",
+    "question": "Hàm kích hoạt Swish được định nghĩa theo công thức toán học nào và do nhóm tác giả nào đề xuất?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Hàm kích hoạt Swish (Google Brain 2017) không được đề cập trong Chương 5; toàn bộ tài liệu không có định nghĩa hay từ khóa này."
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Các yếu tố quyết định để đánh giá một thuật toán ML có tốt hay không là khả năng của nó khi làm gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Thủ thuật chọn hàm lõi trong SVM được đánh giá là một công cụ mạnh mẽ bởi mấy lý do?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong một tác vụ dịch máy, đầu vào được cung cấp cho hệ thống là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Tại sao khi tính toán thống kê với một số lượng mẫu hữu hạn, kết quả ước lượng tham số lại có tính bất định?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Mục tiêu thúc đẩy sự phát triển các thuật toán Deep Learning là để vượt qua điều gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_test1",
+    "split": "test",
+    "question": "Cơ chế khuếch tán (diffusion) trong mô hình Denoising Diffusion Probabilistic Models (DDPM) hoạt động theo nguyên lý gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mô hình sinh Diffusion Probabilistic Models / DDPM không nằm trong nội dung Machine Learning cơ bản của Chương 5."
+  },
+  {
+    "id": "q_unans_test2",
+    "split": "test",
+    "question": "Mạng nơ-ron tích chập ResNet giải quyết vấn đề triệt tiêu đạo hàm bằng residual connection như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiến trúc mạng nơ-ron tích chập sâu với kết nối tắt (ResNet residual skip connection) không được đề cập trong Chương 5."
+  }
+]

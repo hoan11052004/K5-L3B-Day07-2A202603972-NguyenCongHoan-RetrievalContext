@@ -1,0 +1,15 @@
+{
+  "strategy": "hybrid_reranked_k5_b1200",
+  "split": "dev",
+  "n": 15,
+  "hit1": 13,
+  "hit1_rate": 0.8666666666666667,
+  "hit3": 14,
+  "hit3_rate": 0.9333333333333333,
+  "context_hit": 14,
+  "context_evidence_rate": 0.9333333333333333,
+  "avg_context_chars": 891.0666666666667,
+  "median_ms": 40.2643999996144,
+  "mean_ms": 43.67364000002757,
+  "service_cost_usd": 0.00015000000000000001
+}
