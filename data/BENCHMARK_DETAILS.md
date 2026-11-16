@@ -1,14 +1,14 @@
 # Chi tiết Bộ Benchmark 24 Câu hỏi (Day 7 — Agentic RAG)
 
 Bộ benchmark gồm **24 câu hỏi** được thiết kế chuẩn theo yêu cầu của [BENCHMARK.md](../BENCHMARK.md), chia làm 2 tập độc lập:
-- **Tập Dev (17 câu):** 15 câu có đáp án vàng + 2 câu thiếu bằng chứng.
-- **Tập Test (7 câu):** 5 câu có đáp án vàng + 2 câu thiếu bằng chứng.
+- **Tập Dev (17 câu):** 15 câu có đáp án  + 2 câu thiếu bằng chứng.
+- **Tập Test (7 câu):** 5 câu có đáp án  + 2 câu thiếu bằng chứng.
 
 ---
 
 ## 1. Tập Dev (17 câu)
 
-### A. 15 câu có đáp án vàng (Answerable)
+### A. 15 câu có đáp án (Answerable)
 
 | ID | Câu hỏi | Đáp án kỳ vọng | Trang | Bằng chứng (Gold Evidence) |
 |---|---|---|:---:|---|
@@ -39,7 +39,7 @@ Bộ benchmark gồm **24 câu hỏi** được thiết kế chuẩn theo yêu c
 
 ## 2. Tập Test (7 câu)
 
-### A. 5 câu có đáp án vàng (Answerable)
+### A. 5 câu có đáp án (Answerable)
 
 | ID | Câu hỏi | Đáp án kỳ vọng | Trang | Bằng chứng (Gold Evidence) |
 |---|---|---|:---:|---|
